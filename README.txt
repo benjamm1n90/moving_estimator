@@ -12,3 +12,7 @@ User enters:
  -crew size
 App calculates price, displays it to the user
 User can save estimates, and retrieve them
+
+DISCLAIMER:
+Apps purpose is about learning full stack development and is AI assisted, asking questions
+as I go to understand new (to me) technologies used in real world development.

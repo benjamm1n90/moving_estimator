@@ -3,13 +3,14 @@ from rest_framework.permissions import IsAuthenticated
 from .models import Estimate
 from .serializers import EstimateSerializer
 from .services import calculate_price
+from rest_framework.viewsets import ModelViewSet
 
-class EstimateListCreateView(generics.ListCreateAPIView):
+class EstimateViewSet(ModelViewSet):
     serializer_class = EstimateSerializer
     permission_classes = [IsAuthenticated]
 
     def get_queryset(self):
-        return Estimate.objects.all()
+        return Estimate.objects.filter(user=self.request.user)
 
     def perform_create(self, serializer):
         square_feet = serializer.validated_data['square_footage']

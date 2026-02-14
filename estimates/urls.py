@@ -1,6 +1,7 @@
-from django.urls import path
-from .views import EstimateListCreateView
+from rest_framework.routers import DefaultRouter
+from .views import EstimateViewSet
 
-urlpatterns = [
-    path('estimates/', EstimateListCreateView.as_view(), name='estimates'),
-]
+router = DefaultRouter()
+router.register(r'estimates', EstimateViewSet, basename='estimate')
+
+urlpatterns = router.urls

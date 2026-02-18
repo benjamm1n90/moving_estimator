@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 9205f075b1030b55da099ddfcc1fbb6d42ddb648 Ben <benjamin.t.rose90@gmail.com> 1770837774 -0800	commit (initial): WSL init
+9205f075b1030b55da099ddfcc1fbb6d42ddb648 a324723eb188fe77a4ba3334f7b2b3dee63c922c Ben <benjamin.t.rose90@gmail.com> 1770865984 -0800	commit: django ~ basic api setup w/ Postman
+a324723eb188fe77a4ba3334f7b2b3dee63c922c fbf1a95866989667ad79f5c810b763993f67cdec Ben <benjamin.t.rose90@gmail.com> 1771091041 -0800	commit: put security measures in place, user cannot see all estimates now
+fbf1a95866989667ad79f5c810b763993f67cdec 475e5b567bfffaa724e00ca1c35833d5bf513425 Ben <benjamin.t.rose90@gmail.com> 1771101127 -0800	commit: integrated testing, updated readme
